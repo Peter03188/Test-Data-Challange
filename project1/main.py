@@ -14,14 +14,6 @@ date_list = [base + datetime.timedelta(days=x) for x in range(20)]
 num = int(input("How many records would you like:"))
 
 
-result = []
-result.append({'Product', 'Policyholder Name',
-              'Number of people covered', 'postcodes', 'Start date of policy'})
-for n in range(num):
-    result.append({random.choice(product), random.choice(first_name) + "" +
-                  random.choice(last_name), "1", random.choice(postcodes), random.choice(date_list)})
-print(result)
-
 
 header = ['Product', 'Policyholder Name',
           'Number of people covered', 'postcodes', 'Start date of policy']
